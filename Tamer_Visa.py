@@ -1,2 +1,2 @@
-import marshal 
-exec (marshal.loads (b'\xda\x0ccompile_file'))
+"""Compatibility entry point for the Tamer813 detection engine."""
+from detection_engine import *  # noqa: F401,F403

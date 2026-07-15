@@ -1,9 +1,11 @@
-Hi, I'm Tamer813 👋
+# Tamer813 Detection Engine
 
-## 👀 My Interests
-- Cybersecurity and Reverse Engineering  
-- Penetration Testing  
+A lightweight cybersecurity detection engine focused on rule-based event detection, Sigma imports, event correlation, ATT&CK context, severity/risk scoring, alerting, REST APIs, and notification fan-out.
 
-## 💞️ Looking to Collaborate On
-- Open-source Cybersecurity Projects  
-- Developing Ethical Hacking Tools
+## Quick Start
+
+```bash
+python -m unittest discover -s tests
+```
+
+See [Milestone 5 Detection Engine documentation](docs/detection_engine.md) for architecture, APIs, and examples.
